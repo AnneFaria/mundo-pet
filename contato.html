@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Anne">
+    <meta name="description" content="Mundo Pet com mais de 10 anos de experiência">
+    <title>Mundo Pet - Contato</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--css-->
+    <link rel="stylesheet" href="CSS/style-geral.css">
+
+</head>
+<body>
+    <!--cabeçalho-->
+    <header id="cabecalho">
+        <div class="container-cabecalho">
+            <img src="img/img-logo.png" alt="logo Mundo Pet" id="logo">
+
+            <!--menu-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="loja.html">LOJA</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--conteúdo-->
+    <main>
+        <!--não tem section-->
+        <div id="contato">
+            <div class="container">
+                <h1>Contatos</h1>
+                <p>
+                    Ola! Se você tiver alguma dúvida, sugestão ou deseja agendar um horário para o seu pet, preencha o formulário abaixo e entraremos em contato o mais breve possível. Teremos o maior prazer em atendê-lo!
+                </p>
+                <form id="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </div>
+
+            <div id="mapa">
+                <iframe src="" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-dowwngrade"></iframe>
+           </div> 
+        </div>
+    </main>
+
+    <!--rodapé-->
+    <footer>
+        <div class="container-footer">
+            <p>&copy;2025 Todos os direitos reservados | Desenvolvido com 💙 por seu nome!</p>
+            
+            <div id="midias-sociais">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/icon-instagram.png" alt="midia social instagram Mundo Pet" width="25px">
+                </a>
+
+                <a href="https://wa.me/5511999999999" target="_blank">
+                    <img src="img/icon-whatsapp.png" alt="Fale conosco pelo whatsapp" width="25px">
+                </a>
+            </div> 
+        </div>
+    </footer>
+
+</body>
+</html>
